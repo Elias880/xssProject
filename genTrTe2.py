@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 # Load data
-df = pd.read_csv("XSS_dataset1.csv") 
+df = pd.read_csv("XSS_dataset2.csv") 
 df = df.rename(columns={"Sentence": "payload", "Label": "label"})
 
 # Clean payloads
